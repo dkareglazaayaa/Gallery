@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".LoginFragment"
+    android:backgroundTint="@color/lightGrey">
+
+    <RelativeLayout
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/passwordField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginTop="50dp"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/loginField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:ems="10"
+            android:hint="Login"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:inputType="textPersonName"/>
+
+        <Button
+            android:id="@+id/buttonLogin"
+            android:onClick="Click"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="100dp"
+            android:text="Login" />
+
+        <Button
+            android:id="@+id/buttonSignup"
+            android:onClick="Click"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="120dp"
+            android:text="Signup" />
+    </RelativeLayout>
+</FrameLayout>
